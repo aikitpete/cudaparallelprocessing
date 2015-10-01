@@ -1,0 +1,19 @@
+10 ./spheres1 13.285
+10 ./spheres2 15.895
+10 ./spheres3 15.573
+50 ./spheres1 251.832
+50 ./spheres2 339.888
+50 ./spheres3 257.422
+100 ./spheres1 957.629
+100 ./spheres2 1072.181
+100 ./spheres3 922.928
+200 ./spheres1 4460.66
+200 ./spheres2 4377.404
+200 ./spheres3 4384.92
+500 ./spheres1 29230.75
+500 ./spheres2 27003.50
+500 ./spheres3 29981.41
+1000 ./spheres1 113921.5
+1000 ./spheres2 106213.9
+1000 ./spheres3 113191.8
+

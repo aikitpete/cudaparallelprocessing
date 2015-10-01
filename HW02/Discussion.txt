@@ -1,0 +1,6 @@
+The data from each run are in folder ./slurm
+The data could not be plotted because of error in plot script ./plots/plotvals-np1000-t1.sh
+
+They compare the CUDA version (spheres1-3) with CPU version (spheres1-3old)
+
+Questions 1 and 2 can be answered from the data in the files. 

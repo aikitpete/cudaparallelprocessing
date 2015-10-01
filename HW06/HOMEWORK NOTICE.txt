@@ -1,0 +1,2 @@
+The program is ready but with some known bugs.
+Computation of distances fails for multidimensional array.

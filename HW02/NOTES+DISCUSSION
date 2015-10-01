@@ -1,0 +1,26 @@
+NOTES
+
+- use run-all.sh to run all programs and see their results
+- i use custom StopWatch because the provided version was not compatible. it uses same interface as the provided StopWatch.
+
+DISCUSSION
+
+- the data for this homework can be stored in many different ways and optimal data layout may have big impact on performance
+- i designed experiments to compare different configurations:
+
+100 runs each with N = 10, 50, 100, 200, 500, 1000, 2000, 5000
+
+I compared time since initialization of array with spheres until the colissions were fully detected
+
+My configuration:
+Ubuntu 11.10 running on VirtualBox
+Intel Core i3 CPU 3.2 GHz
+1.5GB memory
+
+The configurations I tested:
+1.XYZ,R with simulated array + row major - good data layout but very similar performance to say it's best
+2.XYZR with simulated array + row major - good data layout but very similar performance to say it's best
+3.X,Y,Z,R with simulated array + row major - very similar performance
+4.XYZ,R with look-alike array + row major
+5.XYZ,R with simulated array + column major - didn't perform well because row data were fetched into cache but not used
+6.XYZ,R with look-alike array + column major - didn't perform well because row data were fetched into cache but not used
